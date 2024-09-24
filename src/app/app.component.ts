@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { BadgeComponent } from "./components/badge/badge.component";
 import { ButtonComponent } from "./components/button/button.component";
 import { ButtontoggleComponent } from './components/buttontoggle/buttontoggle.component';
+import { CardComponent } from "./components/card/card.component";
 
 @Component({
   selector: 'app-root',
@@ -14,9 +15,9 @@ import { ButtontoggleComponent } from './components/buttontoggle/buttontoggle.co
     BadgeComponent,
     ButtonComponent,
     ButtonComponent,
-    ButtontoggleComponent
-  
-  ],
+    ButtontoggleComponent,
+    CardComponent
+],
 })
 export class AppComponent {
   title = 'MaterialUIExample';
