@@ -7,6 +7,7 @@ import { CardComponent } from "./components/card/card.component";
 import { CheckboxComponent } from "./components/checkbox/checkbox.component";
 import { DatepickerComponent } from "./components/datepicker/datepicker.component";
 import { DialogComponent } from "./components/dialog/dialog.component";
+import { DividerComponent } from "./components/dialog/divider/divider.component";
 
 @Component({
   selector: 'app-root',
@@ -22,7 +23,9 @@ import { DialogComponent } from "./components/dialog/dialog.component";
     CardComponent,
     CheckboxComponent,
     DatepickerComponent,
-    DialogComponent
+    DialogComponent,
+    DividerComponent,
+    DividerComponent
 ],
 })
 export class AppComponent {
