@@ -4,6 +4,7 @@ import { BadgeComponent } from "./components/badge/badge.component";
 import { ButtonComponent } from "./components/button/button.component";
 import { ButtontoggleComponent } from './components/buttontoggle/buttontoggle.component';
 import { CardComponent } from "./components/card/card.component";
+import { CheckboxComponent } from "./components/checkbox/checkbox.component";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +17,8 @@ import { CardComponent } from "./components/card/card.component";
     ButtonComponent,
     ButtonComponent,
     ButtontoggleComponent,
-    CardComponent
+    CardComponent,
+    CheckboxComponent
 ],
 })
 export class AppComponent {
