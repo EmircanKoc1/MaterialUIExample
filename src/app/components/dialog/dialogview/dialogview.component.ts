@@ -1,6 +1,12 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, model } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { MatDialogActions, MatDialogClose, MatDialogContent, MatDialogRef, MatDialogTitle } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogRef, MatDialogTitle } from '@angular/material/dialog';
+
+
+export interface DialogData {
+  name: string;
+}
+
 
 @Component({
   selector: 'app-dialogview',
@@ -17,5 +23,11 @@ import { MatDialogActions, MatDialogClose, MatDialogContent, MatDialogRef, MatDi
 })
 export class DialogviewComponent {
   readonly dialogRef = inject(MatDialogRef<DialogviewComponent>);
+  readonly data = inject<DialogData>(MAT_DIALOG_DATA);
+  readonly name = this.data.name;
 
+  closeDialog(): void {
+
+    this.dialogRef.close();
+  }
 }
