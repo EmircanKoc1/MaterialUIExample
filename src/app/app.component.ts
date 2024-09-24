@@ -5,6 +5,8 @@ import { ButtonComponent } from "./components/button/button.component";
 import { ButtontoggleComponent } from './components/buttontoggle/buttontoggle.component';
 import { CardComponent } from "./components/card/card.component";
 import { CheckboxComponent } from "./components/checkbox/checkbox.component";
+import { DatepickerComponent } from "./components/datepicker/datepicker.component";
+import { DialogComponent } from "./components/dialog/dialog.component";
 
 @Component({
   selector: 'app-root',
@@ -18,7 +20,9 @@ import { CheckboxComponent } from "./components/checkbox/checkbox.component";
     ButtonComponent,
     ButtontoggleComponent,
     CardComponent,
-    CheckboxComponent
+    CheckboxComponent,
+    DatepickerComponent,
+    DialogComponent
 ],
 })
 export class AppComponent {
