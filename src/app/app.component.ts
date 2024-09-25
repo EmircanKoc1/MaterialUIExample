@@ -9,6 +9,7 @@ import { DatepickerComponent } from "./components/datepicker/datepicker.componen
 import { DialogComponent } from "./components/dialog/dialog.component";
 import { DividerComponent } from "./components/dialog/divider/divider.component";
 import { ExpensionpanelComponent } from './components/expensionpanel/expensionpanel.component';
+import { GridComponent } from './components/grid/grid.component';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +28,8 @@ import { ExpensionpanelComponent } from './components/expensionpanel/expensionpa
     DialogComponent,
     DividerComponent,
     DividerComponent,
-    ExpensionpanelComponent
+    ExpensionpanelComponent,
+    GridComponent
 ],
 })
 export class AppComponent {
