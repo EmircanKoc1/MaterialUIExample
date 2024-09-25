@@ -10,6 +10,7 @@ import { DialogComponent } from "./components/dialog/dialog.component";
 import { DividerComponent } from "./components/dialog/divider/divider.component";
 import { ExpensionpanelComponent } from './components/expensionpanel/expensionpanel.component';
 import { GridComponent } from './components/grid/grid.component';
+import { IconComponent } from './components/icon/icon.component';
 
 @Component({
   selector: 'app-root',
@@ -29,7 +30,8 @@ import { GridComponent } from './components/grid/grid.component';
     DividerComponent,
     DividerComponent,
     ExpensionpanelComponent,
-    GridComponent
+    GridComponent,
+    IconComponent
 ],
 })
 export class AppComponent {
