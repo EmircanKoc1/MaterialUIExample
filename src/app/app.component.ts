@@ -12,6 +12,7 @@ import { ExpensionpanelComponent } from './components/expensionpanel/expensionpa
 import { GridComponent } from './components/grid/grid.component';
 import { IconComponent } from './components/icon/icon.component';
 import { ListComponent } from "./components/list/list.component";
+import { PaginatorComponent } from "./components/paginator/paginator.component";
 
 @Component({
   selector: 'app-root',
@@ -33,7 +34,9 @@ import { ListComponent } from "./components/list/list.component";
     ExpensionpanelComponent,
     GridComponent,
     IconComponent,
-    ListComponent
+    ListComponent,
+    PaginatorComponent,
+    PaginatorComponent
 ],
 })
 export class AppComponent {
