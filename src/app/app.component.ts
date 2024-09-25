@@ -13,6 +13,9 @@ import { GridComponent } from './components/grid/grid.component';
 import { IconComponent } from './components/icon/icon.component';
 import { ListComponent } from "./components/list/list.component";
 import { PaginatorComponent } from "./components/paginator/paginator.component";
+import { ProgressbarComponent } from './components/progressbar/progressbar.component';
+
+
 
 @Component({
   selector: 'app-root',
@@ -36,8 +39,8 @@ import { PaginatorComponent } from "./components/paginator/paginator.component";
     IconComponent,
     ListComponent,
     PaginatorComponent,
-    PaginatorComponent
-],
+    ProgressbarComponent
+  ],
 })
 export class AppComponent {
   title = 'MaterialUIExample';

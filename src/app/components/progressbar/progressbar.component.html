@@ -1,0 +1,7 @@
+<mat-progress-bar (animationEnd)="animationEnded()" style="margin-top: 100px;" mode="determinate" [value]="value"></mat-progress-bar>
+<button (click)="incrementValue()">increment</button>
+<button (click)="decrementValue()">decrement</button>
+<mat-divider></mat-divider>
+<mat-progress-bar mode="indeterminate"></mat-progress-bar>
+<mat-divider></mat-divider>
+<mat-progress-bar mode="buffer"></mat-progress-bar>
