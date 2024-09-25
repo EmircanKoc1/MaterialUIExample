@@ -8,6 +8,7 @@ import { CheckboxComponent } from "./components/checkbox/checkbox.component";
 import { DatepickerComponent } from "./components/datepicker/datepicker.component";
 import { DialogComponent } from "./components/dialog/dialog.component";
 import { DividerComponent } from "./components/dialog/divider/divider.component";
+import { ExpensionpanelComponent } from './components/expensionpanel/expensionpanel.component';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import { DividerComponent } from "./components/dialog/divider/divider.component"
     DatepickerComponent,
     DialogComponent,
     DividerComponent,
-    DividerComponent
+    DividerComponent,
+    ExpensionpanelComponent
 ],
 })
 export class AppComponent {
