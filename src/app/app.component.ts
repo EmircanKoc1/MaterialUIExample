@@ -16,6 +16,7 @@ import { PaginatorComponent } from "./components/paginator/paginator.component";
 import { ProgressbarComponent } from './components/progressbar/progressbar.component';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProgressspinnerComponent } from './components/progressspinner/progressspinner.component';
+import { RadioComponent } from './components/radio/radio.component';
 
 
 
@@ -42,7 +43,8 @@ import { ProgressspinnerComponent } from './components/progressspinner/progresss
     ListComponent,
     PaginatorComponent,
     ProgressbarComponent,
-    ProgressspinnerComponent
+    ProgressspinnerComponent,
+    RadioComponent
   ],
 })
 export class AppComponent {
