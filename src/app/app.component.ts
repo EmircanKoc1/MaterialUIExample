@@ -14,6 +14,8 @@ import { IconComponent } from './components/icon/icon.component';
 import { ListComponent } from "./components/list/list.component";
 import { PaginatorComponent } from "./components/paginator/paginator.component";
 import { ProgressbarComponent } from './components/progressbar/progressbar.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProgressspinnerComponent } from './components/progressspinner/progressspinner.component';
 
 
 
@@ -39,7 +41,8 @@ import { ProgressbarComponent } from './components/progressbar/progressbar.compo
     IconComponent,
     ListComponent,
     PaginatorComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    ProgressspinnerComponent
   ],
 })
 export class AppComponent {
