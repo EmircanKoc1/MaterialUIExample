@@ -1,0 +1,16 @@
+<mat-list role="list">
+    <mat-list-item role="listitem">Item 1</mat-list-item>
+    <mat-list-item role="listitem">Item 2</mat-list-item>
+    <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+<mat-divider></mat-divider>  
+<mat-selection-list #shoes>
+    <mat-list-option>elma</mat-list-option>
+    <mat-list-option>armut</mat-list-option>
+    <mat-list-option togglePosition="before" >karpuz</mat-list-option>
+</mat-selection-list>
+<p>
+    seçildi : {{shoes.selectedOptions.selected.length}}
+</p>
+<mat-divider></mat-divider>
+

@@ -11,6 +11,7 @@ import { DividerComponent } from "./components/dialog/divider/divider.component"
 import { ExpensionpanelComponent } from './components/expensionpanel/expensionpanel.component';
 import { GridComponent } from './components/grid/grid.component';
 import { IconComponent } from './components/icon/icon.component';
+import { ListComponent } from "./components/list/list.component";
 
 @Component({
   selector: 'app-root',
@@ -31,7 +32,8 @@ import { IconComponent } from './components/icon/icon.component';
     DividerComponent,
     ExpensionpanelComponent,
     GridComponent,
-    IconComponent
+    IconComponent,
+    ListComponent
 ],
 })
 export class AppComponent {
