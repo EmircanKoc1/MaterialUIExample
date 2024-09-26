@@ -18,6 +18,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProgressspinnerComponent } from './components/progressspinner/progressspinner.component';
 import { RadioComponent } from './components/radio/radio.component';
 import { RipplesComponent } from "./components/ripples/ripples.component";
+import { SidenavComponent } from './components/sidenav/sidenav.component';
 
 
 
@@ -46,7 +47,8 @@ import { RipplesComponent } from "./components/ripples/ripples.component";
     ProgressbarComponent,
     ProgressspinnerComponent,
     RadioComponent,
-    RipplesComponent
+    RipplesComponent,
+    SidenavComponent
 ],
 })
 export class AppComponent {
