@@ -19,6 +19,7 @@ import { ProgressspinnerComponent } from './components/progressspinner/progresss
 import { RadioComponent } from './components/radio/radio.component';
 import { RipplesComponent } from "./components/ripples/ripples.component";
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.component';
 
 
 
@@ -48,7 +49,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     ProgressspinnerComponent,
     RadioComponent,
     RipplesComponent,
-    SidenavComponent
+    SidenavComponent,
+    SlidetoggleComponent
 ],
 })
 export class AppComponent {
