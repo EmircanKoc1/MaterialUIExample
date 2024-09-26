@@ -17,6 +17,7 @@ import { ProgressbarComponent } from './components/progressbar/progressbar.compo
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ProgressspinnerComponent } from './components/progressspinner/progressspinner.component';
 import { RadioComponent } from './components/radio/radio.component';
+import { RipplesComponent } from "./components/ripples/ripples.component";
 
 
 
@@ -44,8 +45,9 @@ import { RadioComponent } from './components/radio/radio.component';
     PaginatorComponent,
     ProgressbarComponent,
     ProgressspinnerComponent,
-    RadioComponent
-  ],
+    RadioComponent,
+    RipplesComponent
+],
 })
 export class AppComponent {
   title = 'MaterialUIExample';
