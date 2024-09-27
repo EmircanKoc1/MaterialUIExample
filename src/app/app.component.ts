@@ -22,6 +22,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.component';
 import { SnackbarComponent } from './components/snackbar/snackbar.component';
 import { SnackbarCustomComponent } from './components/snackbar/snackbarwithcustomcomponent/snackbar-custom/snackbar-custom.component';
+import { TreeComponent } from './components/tree/tree.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 
 
@@ -54,7 +56,9 @@ import { SnackbarCustomComponent } from './components/snackbar/snackbarwithcusto
     SidenavComponent,
     SlidetoggleComponent,
     SnackbarComponent,
-    SnackbarCustomComponent
+    SnackbarCustomComponent,
+    TreeComponent,
+    TabsComponent
 ],
 })
 export class AppComponent {
