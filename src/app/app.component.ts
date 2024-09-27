@@ -20,6 +20,8 @@ import { RadioComponent } from './components/radio/radio.component';
 import { RipplesComponent } from "./components/ripples/ripples.component";
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.component';
+import { SnackbarComponent } from './components/snackbar/snackbar.component';
+import { SnackbarCustomComponent } from './components/snackbar/snackbarwithcustomcomponent/snackbar-custom/snackbar-custom.component';
 
 
 
@@ -50,7 +52,9 @@ import { SlidetoggleComponent } from './components/slidetoggle/slidetoggle.compo
     RadioComponent,
     RipplesComponent,
     SidenavComponent,
-    SlidetoggleComponent
+    SlidetoggleComponent,
+    SnackbarComponent,
+    SnackbarCustomComponent
 ],
 })
 export class AppComponent {
