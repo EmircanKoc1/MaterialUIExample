@@ -26,6 +26,7 @@ import { TreeComponent } from './components/tree/tree.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { TooltipComponent } from "./components/tooltip/tooltip.component";
+import { MenuComponent } from "./components/menu/menu.component";
 
 
 
@@ -62,7 +63,8 @@ import { TooltipComponent } from "./components/tooltip/tooltip.component";
     TreeComponent,
     TabsComponent,
     ToolbarComponent,
-    TooltipComponent
+    TooltipComponent,
+    MenuComponent
 ],
 })
 export class AppComponent {

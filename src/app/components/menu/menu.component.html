@@ -1,0 +1,26 @@
+<button mat-button [matMenuTriggerFor]="vegetables" >Menu</button>
+
+<mat-menu #vegetables="matMenu"
+hasBackdrop="true"
+backdropClass="custom-has-background"
+
+>
+    <button mat-menu-item>Carrot</button>
+    <button [matMenuTriggerFor]="fruits" mat-menu-item>Fruits</button>
+    <button mat-menu-item>Patato</button>
+    <button mat-menu-item>spinach</button>
+    <button mat-menu-item>
+        <mat-icon>settings</mat-icon>
+        <span>settings</span>    
+    </button>
+</mat-menu>
+
+<mat-menu #fruits="matMenu">
+    <button mat-menu-item>Orange</button>
+    <button mat-menu-item>Banana</button>
+    <button mat-menu-item>Cherry</button>
+</mat-menu>
+
+
+
+<button mat-raised-button (click)="openMenu()">open menu</button>
