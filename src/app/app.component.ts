@@ -24,6 +24,7 @@ import { SnackbarComponent } from './components/snackbar/snackbar.component';
 import { SnackbarCustomComponent } from './components/snackbar/snackbarwithcustomcomponent/snackbar-custom/snackbar-custom.component';
 import { TreeComponent } from './components/tree/tree.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 
 
@@ -58,7 +59,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     SnackbarComponent,
     SnackbarCustomComponent,
     TreeComponent,
-    TabsComponent
+    TabsComponent,
+    ToolbarComponent
 ],
 })
 export class AppComponent {
